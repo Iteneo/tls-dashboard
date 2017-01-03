@@ -1,0 +1,9 @@
+# environment
+set :stage, :production
+
+# repository
+set :branch, "master"
+
+# server
+server "server_ip", port: server_port, user: "user"
+set :deploy_to, "path_on_server"
