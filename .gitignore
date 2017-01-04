@@ -1,5 +1,5 @@
 # node_app/config.js
-# node_app/monitored_hosts.js
+node_app/monitored_hosts.js
 web_service/js/tls-dashboard/certificates.js
 
 # iteneo

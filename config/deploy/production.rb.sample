@@ -5,5 +5,5 @@ set :stage, :production
 set :branch, "master"
 
 # server
-server "server_ip", port: server_port, user: "user"
+server "server_ip", port: server_port, user: "user", roles: %w(app)
 set :deploy_to, "path_on_server"
